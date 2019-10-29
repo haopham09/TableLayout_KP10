@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:stretchColumns="*"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!--stretchColumns " * " * dãn cách cot với nhau-->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:background="#f22"
+            android:textColor="#ffff"
+            android:text="View 1"/>
+        <TextView
+            android:background="#CDDC39"
+            android:textColor="#ffff"
+            android:text="View 1"/>
+        <TextView
+            android:background="#009688"
+            android:textColor="#ffff"
+            android:text="View 1"/>
+        <TextView
+            android:background="#3F51B5"
+            android:textColor="#ffff"
+            android:text="View 1"/>
+
+    </TableRow>
+
+   <!--layout_spam-->
+    <TableRow>
+
+        <TextView
+            android:layout_span="4"
+            android:background="#FF9800"
+            android:textColor="#ffff"
+            android:text="View 5"/>
+    </TableRow>
+
+
+</TableLayout>
